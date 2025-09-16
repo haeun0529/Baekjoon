@@ -18,7 +18,7 @@ int main() {
 
         for(int j=0; j<len; j++) {
             if(str[j] != prev) { // 현재 문자가 이전 문자와 같지 않은 경우
-                if(ap[str[j] - 'a']) { // 안나온 문자인 경우
+                if(ap[str[j] - 'a']) { // 나온 문자인 경우
                     flag = 0;
                     break;
                 }
